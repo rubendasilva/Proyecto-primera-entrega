@@ -1,0 +1,85 @@
+body {
+    background-image: url('images/bandera.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* Ocupa toda la pantalla */
+    margin: 0;
+}
+
+h1 {}
+
+.raceForm {
+    background-color: rgba(225, 222, 170, 0.8);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    /* Ajusta el tamaño del cartel */
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    /* Sombra para destacar el cartel */
+}
+
+.imagen {
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.chooseCar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bmwBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.mercedesBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.chooseMapBox {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.facilBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.dificilBox {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text] {
+    padding: 10px 10px;
+    margin: 2px 0;
+    width: 300px;
+}
+
+input[type=submit] {
+    padding: 10px 30px;
+    background-color: rgba(255, 3, 1, 0.8);
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 30px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: rgba(162, 0, 0, 0.8);
+}
